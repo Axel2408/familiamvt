@@ -14,11 +14,11 @@ def pagina_inicio(request):
     
     nombreyparentezco={"papa":"Alexis", "mama":"Andrea", "hermano":"Audric", "tio":"Claudio"}
 
-    cumpleaños={"papa":"06/04/1972","mama": "05/06/1972", "hermano":"28/03/2007", "tio":"12/02/1971"}
+    cumpleanos={"papa":"06/04/1972","mama": "05/06/1972", "hermano":"28/03/2007", "tio":"12/02/1971"}
 
     edad={"papa":49, "mama":49, "hermano":15, "tio":51}
 
-    dic_context={"nombreypa": nombreyparentezco, "cumple":cumpleaños, "edad":edad}
+    dic_context={"nombreypa": nombreyparentezco, "cumple":cumpleanos, "edad":edad}
 
     plantilla=Template(archivo.read())
 
